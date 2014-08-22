@@ -1,0 +1,28 @@
+{
+  "name": "karma-ember-rocks-traceur",
+  "version": "0.0.1",
+  "description": "A Karma plugin. Compile ES6 script on the fly using traceur-compiler for ember-rocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexferreira/karma-ember-rocks-traceur.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor",
+    "traceur",
+    "ember-rocks"
+  ],
+  "author": {
+    "name": "Alex Ferreira",
+    "email": "alex@dsol.com.br"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "karma": ">=0.11.14",
+    "traceur": "*"
+  }
+}
